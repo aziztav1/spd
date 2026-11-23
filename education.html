@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aziz Tafrihan | Education</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Canvas background Three.js -->
+    <canvas id="three-bg"></canvas>
+
+    <main class="container">
+        <div class="miles-edu-board">
+            <!-- Detail Garis Lengkung Kontur pada Blok Hitam -->
+            <svg class="black-zone-curves" viewBox="0 0 650 700" preserveAspectRatio="none" aria-hidden="true">
+                <g fill="none" stroke-linecap="round">
+                    <path d="M -30 45 C 120 15, 190 120, 140 230 C 90 340, 220 410, 290 540 C 330 615, 250 675, 160 720"
+                        stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5" />
+                    <path
+                        d="M -20 95 C 145 65, 225 160, 175 265 C 125 375, 255 445, 325 570 C 360 635, 285 685, 205 725"
+                        stroke="rgba(226, 37, 53, 0.16)" stroke-width="1.4" />
+                    <path d="M -40 165 C 110 135, 165 235, 110 345 C 55 455, 185 520, 240 655"
+                        stroke="rgba(255, 255, 255, 0.06)" stroke-width="1.4" />
+                    <path d="M 40 -20 C 180 40, 260 110, 235 215 C 210 320, 325 385, 370 490"
+                        stroke="rgba(255, 255, 255, 0.07)" stroke-width="1.3" />
+                    <path d="M -25 265 C 85 245, 120 345, 65 445 C 10 545, 125 615, 165 720"
+                        stroke="rgba(226, 37, 53, 0.12)" stroke-width="1.3" />
+                </g>
+            </svg>
+
+            <!-- Baris Atas: Sub-label Kiri, Navigasi Tengah, Tombol Lihat Ijazah Kanan -->
+            <header class="board-topbar">
+                <span class="jp-subtag">About・Education</span>
+
+                <nav class="hx-linksind" aria-label="Primary Navigation">
+
+                    <a href="index.html">About Me</a>
+                    <a class="active" href="#">Education</a>
+                    <a href="experience.html">Experience</a>
+                    <a href="skills.html">Skills</a>
+                </nav>
+
+                <div class="top-actions">
+                    <button type="button" class="icon-btn" aria-label="Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <a href="https://drive.google.com/file/d/1SKa81wrRRdfmsGsv88oIaHkaENTGbqHx/view" target="_blank"
+                        rel="noopener" class="cta-btn">
+                        LIHAT IJAZAH
+                    </a>
+                </div>
+            </header>
+
+            <!-- Grid Utama 3 Kolom -->
+            <section class="miles-edu-grid">
+                <!-- Kolom Kiri -->
+                <div class="col-left">
+                    <div class="title-stack">
+                        <div class="title-pill-red">EDU</div>
+                        <div class="title-outline-red">CATION</div>
+                        <p class="edu-school-sub">SMK N 1 Tengaran &bull; 2016 – 2019</p>
+                    </div>
+
+                    <a href="experience.html" class="cream-next-card">
+                        <div class="next-thumb">
+                            <img src="excc.png" alt="Next Experience">
+                        </div>
+                        <div class="next-info">
+                            <span class="next-kicker">NEXT</span>
+                            <strong class="next-heading">EXPERIENCE</strong>
+                        </div>
+                    </a>
+
+                    <div class="indicator-row">
+                        <span class="dot-ring"></span>
+                        <span class="dot-solid"></span>
+                        <span class="dot-ring"></span>
+                    </div>
+                </div>
+
+                <!-- Kolom Tengah -->
+                <div class="col-center">
+                    <div class="tilted-bg-word" aria-hidden="true">EDUCATION</div>
+                    <div class="character-frame">
+                        <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: contain;">
+                            <source src="1123 (1)-nobg_alpha.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+
+                <!-- Kolom Kanan: Kartu Krem + Detail Jaring & Laba-Laba -->
+                <div class="col-right">
+
+
+                    <div class="cream-info-panel">
+                        <svg class="panel-corner-web" viewBox="0 0 90 90" aria-hidden="true">
+                            <g stroke="#141414" stroke-width="1.6" fill="none">
+                                <line x1="0" y1="0" x2="80" y2="25" />
+                                <line x1="0" y1="0" x2="65" y2="65" />
+                                <line x1="0" y1="0" x2="25" y2="80" />
+                                <path d="M 38 0 Q 38 38 0 38" />
+                                <path d="M 68 0 Q 68 68 0 68" />
+                            </g>
+                        </svg>
+
+                        <div class="side-dots" aria-hidden="true">
+                            <span></span><span></span><span></span><span></span><span></span>
+                        </div>
+
+                        <p class="bio-summary">
+                            Lulusan <strong>Teknik Sepeda Motor</strong> di <strong>SMK N 1 Tengaran</strong>
+                            (2016–2019)
+                            dengan pengalaman praktik langsung pada perawatan mesin, kelistrikan, standar K3 bengkel,
+                            serta praktik kerja lapangan.
+                        </p>
+
+                        <div class="highlights-list">
+                            <div class="highlight-row">
+                                <span class="highlight-tag">KOMPETENSI UTAMA</span>
+                                <h2 class="highlight-value">TEKNIK SEPEDA MOTOR</h2>
+                                <p class="highlight-desc">Perawatan, perbaikan berkala, dan diagnosis kerusakan mesin
+                                    &amp; kelistrikan.</p>
+                            </div>
+
+                            <div class="highlight-row">
+                                <span class="highlight-tag">KESELAMATAN KERJA</span>
+                                <h2 class="highlight-value">STANDAR K3 BENGKEL</h2>
+                                <p class="highlight-desc">Mengoperasikan peralatan bengkel secara aman sesuai prosedur
+                                    K3.</p>
+                            </div>
+
+                            <div class="highlight-row">
+                                <span class="highlight-tag">Praktik Kerja Lapangan</span>
+                                <h2 class="highlight-value">MEI 2018 – JULI 2018</h2>
+                                <p class="highlight-desc">Praktik kerja lapangan untuk memperkuat keterampilan dan etos
+                                    kerja.</p>
+                            </div>
+                        </div>
+
+                        <div class="hanging-spider-wrap" aria-hidden="true">
+                            <span class="web-thread"></span>
+                            <i class="fa-solid fa-spider hanging-spider"></i>
+                        </div>
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1SKa81wrRRdfmsGsv88oIaHkaENTGbqHx/view" target="_blank"
+                        rel="noopener" class="cream-bottom-card">
+                        <div class="bottom-card-icon">
+                            <i class="fa-solid fa-file"></i>
+                        </div>
+                        <div class="bottom-card-text">
+                            <strong>SMK N 1 Tengaran (2016 – 2019)</strong>
+                            <span>Lihat Ijazah</span>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Footer dengan Indikator 003 -->
+            <footer class="card-footer">
+                <div class="page-indicator1">
+                    <span class="page-num1">002</span>
+                    <div class="page-line"></div>
+                </div>
+                <p>&copy; 2026 Aziz Tafrihan. All Rights Reserved.</p>
+            </footer>
+        </div>
+    </main>
+
+    <script type="module" src="three-background.js"></script>
+</body>
+
+</html>

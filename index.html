@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aziz Tafrihan | CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+<body>
+    <!-- Canvas untuk background Three.js Anda -->
+    <canvas id="three-bg"></canvas>
+
+    <!-- Teks Watermark Vertikal di Sisi Kiri (Seperti "MARVEL" di referensi) -->
+    <div class="bg-watermark">PORTFOLIO</div>
+
+    <main class="container">
+        <div class="hero-card">
+            <!-- Header & Navigasi -->
+            <header class="hx">
+                <div class="hx-logo">
+                    <span class="logo-box">ABOUT</span>
+                    <span class="logo-sub">ME</span>
+                </div>
+
+                <nav class="hx-nav">
+                    <div class="hx-linksind">
+
+                        <a class="active" href="#">About Me</a>
+                        <a href="education.html">Education</a>
+                        <a href="experience.html">Experience</a>
+                        <a href="skills.html">Skills</a>
+                    </div>
+                </nav>
+
+                <div class="hx-search">
+                    <div class="search-pill">
+                        <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                </div>
+            </header>
+
+            <!-- Konten Tengah (Ikon Sosmed Kiri, Judul Besar Tengah, Karakter/Foto Kanan) -->
+            <section class="hero-body">
+                <!-- Sosial Media Vertikal -->
+                <aside class="social-sidebar">
+
+                    <a href="https://wa.me/6288802408715" target="_blank" rel="noopener" aria-label="WhatsApp"
+                        title="WhatsApp: +62 812-3456-7890"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="mailto:aziztav16@email.com" aria-label="Email" title="Email: aziz.tafrihan@email.com"><i
+                            class="fa-solid fa-envelope"></i></a>
+                    <a href="https://instagram.com/aziztav_" target="_blank" rel="noopener" aria-label="Instagram"
+                        title="Instagram: @username"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://maps.app.goo.gl/6EeJWgZEy4Hnyb9F8" target="_blank" rel="noopener"
+                        aria-label="Alamat" title="Alamat: Salatiga, Jawa Tengah"><i
+                            class="fa-solid fa-location-dot"></i></a>
+                </aside>
+
+
+                <!-- Judul Utama -->
+                <div class="hero-center">
+                    <h1 class="hero-title" data-text="AZIZ TAFRIHAN">AZIZ TAFRIHAN</h1>
+                </div>
+
+                <!-- Gambar Karakter / Foto Profil (Keluar sedikit dari card seperti Spider-Man) -->
+                <div class="hero-character">
+                    <!-- Ganti src dengan foto profil transparan (.png) atau ilustrasi Anda -->
+                    <img src="ftcv1.png" alt="Hero Character">
+                </div>
+            </section>
+
+            <!-- Footer Card (Nomor Halaman 001 + 3 Kolom Info + Panah Bawah) -->
+            <footer class="hero-footer">
+                <div class="page-indicator">
+                    <span class="page-num">001</span>
+                    <div class="page-line"></div>
+
+                </div>
+
+
+                <div class="info-grid">
+                    <div class="info-item">
+                        <h3><span>01</span> Profile</h3>
+                        <p>Lulusan pelatihan Teknisi Komputer dan Jaringan yang memiliki ketertarikan pada Teknologi
+                            Informasi & Design Grafis.
+                        </p>
+                    </div>
+                    <div class="info-item">
+                        <h3><span>02</span> Services</h3>
+                        <p>IT Support, Junior Designer Graphic, AI Prompting & Tools.</p>
+                    </div>
+                   
+                    <div class="info-item">
+                        <h3><span>03</span> Highlight</h3>
+                        <p>Currently open for creative collaborations, freelance projects, and full-time opportunities.
+                        </p>
+                    </div>
+                     
+                        <span></span>
+                        <p>&copy; 2026 Aziz Tafrihan. All Rights Reserved.</p>
+                        <span></span>
+                    
+                </div>
+
+
+                <a href="education.html" class="scroll-right" aria-label="Next Section">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+
+        </div>
+    </main>
+
+    <script type="module" src="three-background.js"></script>
+</body>
+
+</html>
